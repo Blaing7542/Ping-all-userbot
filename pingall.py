@@ -15,6 +15,6 @@ def ping_all(client, message):
     for member in members:
         if member.user.is_bot:
             continue
-        client.send_message(message.chat.id, f"@{member.user.username} ПИНГ ВСЕХ ОТ BLAING")
+        client.send_message(message.chat.id, f"@{member.user.username} ПИНГ ВСЕХ")
 
 app.run()
